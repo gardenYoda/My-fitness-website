@@ -1,0 +1,99 @@
+body{
+    font-family: "Raleway", sans-serif;
+
+}
+
+.navbar{
+    
+    font-weight: 100;
+    position: absolute;
+    top:0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+
+    .navbar-brand{
+        font-weight: 100;
+    }
+    .nav-item{
+        font-size: 1.4rem;
+    }
+
+    .nav-link:hover {
+        
+        border-bottom: 1px solid white;
+        
+
+    }
+} 
+
+#otherNavs{
+    background: url("images/shh.jpg") left top / cover no-repeat;
+}
+
+
+#showcase {
+    background: url("images/shh.jpg") left center / cover no-repeat;
+    min-height: 750px;
+    position: relative;
+
+
+    #header{
+        z-index: 2;
+    }
+
+
+    h1{
+        font-family:"Questrial",sans-serif;
+        line-height: 1;
+    }
+
+    h3{
+        font-size: 2rem;
+    }
+    #book{
+        font-size: 2rem;
+        border-radius: 2rem;
+        
+        
+        
+
+    }
+    #book:hover{
+        box-shadow: 2px 2px white;
+    }
+  
+
+}
+
+#quotes{
+    i{
+        opacity: 0.3;
+    }
+}
+
+.card{
+    img{
+        display: inline;
+        max-width: 100px;
+        max-height: 100px;
+        
+    }
+}
+
+
+
+@media(max-width:760px){
+    .navbar{
+        background: #1f1f1f;
+        .nav-link:hover{
+            border: none;
+        }
+    }
+    #showcase{
+        min-height: 500px;
+        h1{
+            font-size: 4rem;
+        }
+    }
+}
